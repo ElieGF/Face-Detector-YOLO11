@@ -1,0 +1,19 @@
+# virtual environment
+.venv/
+
+# pre-trained models
+models/
+
+
+# results
+runs/**
+
+!runs/**/
+
+!runs/detect/train/weights/best.pt
+!runs/detect/train/results.png
+
+
+# Dataset
+data/
+
